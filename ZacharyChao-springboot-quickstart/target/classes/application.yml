@@ -1,0 +1,7 @@
+server:
+  port: 8888
+
+# 开放静态资源访问
+spring:
+  mvc:
+    static-path-pattern: /static/**
