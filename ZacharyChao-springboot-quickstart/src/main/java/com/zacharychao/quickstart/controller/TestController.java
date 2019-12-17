@@ -11,6 +11,10 @@ public class TestController {
 	@RequestMapping("/test")
 	@ResponseBody
 	public List<String> test() {
-		return Arrays.asList("1","2","3");
+		return Arrays.asList("1","2","3","4");
+	}
+	@RequestMapping("/testJSP")
+	public String testJSP() {
+		return "hello";
 	}
 }
