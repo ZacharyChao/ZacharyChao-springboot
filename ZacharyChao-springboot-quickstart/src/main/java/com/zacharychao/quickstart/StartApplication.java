@@ -1,10 +1,14 @@
 package com.zacharychao.quickstart;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.stereotype.Controller;
 @SpringBootApplication
-@Controller
+/*
+ * 指定mapper接口java类的包名
+ */
+@MapperScan(basePackages= {"com.zacharychao.quickstart.mapper"})
 public class StartApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(StartApplication.class, args);
