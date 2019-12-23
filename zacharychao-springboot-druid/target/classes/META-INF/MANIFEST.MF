@@ -1,6 +1,10 @@
 Manifest-Version: 1.0
 Implementation-Title: zacharychao-springboot-druid
 Implementation-Version: 0.0.1-SNAPSHOT
-Build-Jdk-Spec: 1.8
+Built-By: Administrator
+Implementation-Vendor-Id: com.zacharychao
+Build-Jdk: 1.8.0_151
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/ZacharyChao-springboot/zacharychao-springboot-druid
 Created-By: Maven Integration for Eclipse
 

@@ -13,7 +13,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/zacharychao?useSSL=false&serverTimezone=UTC
     username: root
-    password: root@123
+    password: root123
 # 配置mybatis，告诉springboot存放sql语句的xml文件的位置
 mybatis:
   mapper-locations:
