@@ -16,5 +16,6 @@
 	</parent>
 	<modules>
 		<module>ZacharyChao-springboot-quickstart</module>
+		<module>zacharychao-springboot-druid</module>
 	</modules>
 </project>
